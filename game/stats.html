@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" class="page-stats">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Best Players</title>
+
+		<link rel="stylesheet" href="./css/stats.css" />
+		<script defer src="./js/stats.js"></script>
+	</head>
+	<body data-stats-url="https://game-stats.z3w.site/yahtzee.php">
+		<a class="btn btn_back" href="./index.html">Back To Game</a>
+		<div id="app-stats">
+			<h3>Top Scores</h3>
+
+			<div id="app_stats_container" class="dib tal"></div>
+		</div>
+
+		<template id="app-stats-template">
+			<div class="stats_game">
+				<h3 class="stats_game_type"><span></span></h3>
+			</div>
+			<hr />
+		</template>
+		<template id="app-stats-position-template">
+			<div class="stats_position">
+				<div class="stats_score"></div>
+				<div class="stats_uname"></div>
+				<div class="stats_date"></div>
+			</div>
+		</template>
+	</body>
+</html>
