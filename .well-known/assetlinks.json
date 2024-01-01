@@ -1,0 +1,15 @@
+[
+	{
+		"relation": [
+			"delegate_permission/common.handle_all_urls"
+		],
+		"target": {
+			"namespace": "android_app",
+			"package_name": "world.ocg.yahtzee",
+			"sha256_cert_fingerprints": [
+				"F6:CF:3F:FA:92:6F:E8:F8:C7:70:05:41:1B:3C:34:72:83:85:C7:44:2B:4C:AB:62:1F:65:CB:79:88:24:7A:0A",
+				"1C:14:00:94:07:62:DE:16:AB:F3:9D:12:F8:A7:65:C1:A8:17:0D:33:DC:90:0B:AA:D0:F1:F9:1E:45:03:94:A2"
+			]
+		}
+	}
+]
